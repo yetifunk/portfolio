@@ -38,7 +38,7 @@ body {
 
 header {
     grid-column: 1 / span 4;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .contact-container{
@@ -51,7 +51,7 @@ header {
 
 .contact-container h4 {
     display: inline-block;
-    margin: 10px 0 20px 0;
+    margin: 5px 0 40px 0;
 }
 
 .icon {
@@ -63,7 +63,8 @@ header {
     grid-column: 2 / span 2;
     grid-row: 2;
     color: white;
-    margin: 0 50px 0 50px
+    margin: 0 20px 0 20px;
+    text-align: center;
 }
 
 .about-me p {
@@ -74,7 +75,7 @@ header {
 
 .skills {
     color: white;
-    margin-left: 20px;
+    margin-left: 50px;
     grid-column: 4;
     grid-row: 2 / span 3;
     font-family: 'Darker Grotesque', sans-serif;
@@ -96,8 +97,30 @@ header {
     text-align: center;
 }
 
+.projects h4 {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+
+
+.projects p {
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    margin: 5px 15px 0 15px;
+}
+
 .screenshot {
     max-width: 75%;
     margin-top: 30px;
     border-radius: 15px;
+    border: 3px solid rgb(144,12,184);
+}
+
+.zoom {
+    transition: transform .3s;
+}
+
+.zoom:hover {
+    transform: scale(2);
 }
