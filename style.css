@@ -1,8 +1,8 @@
-* {
+/* * {
     background-color: rgb(26, 10, 41);
-}
+} */
 
-/* html, body {
+html, body {
     width: 100%;
     height:100%;
   }
@@ -23,7 +23,7 @@
       100% {
           background-position: 0% 50%;
       }
-  } */
+  }
 
 h1 {
     font-size: 80px;
@@ -56,7 +56,7 @@ h4 {
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr .5fr 1fr 1fr;
+    grid-template-rows: .5fr .5fr .25fr 1fr 1fr;
 }
 
 header {
@@ -86,7 +86,7 @@ header {
     grid-column: 2 / span 2;
     grid-row: 2;
     color: white;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 75px 20px;
     text-align: center;
 }
 
@@ -113,9 +113,22 @@ header {
     font-size: 25px;
 }
 
+.project-header {
+    grid-row: 3 ;
+    grid-column: 2 / span 2;
+}
+
+.project-header h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
 .projects {
     grid-column: 2 / span 2;
-    grid-row: 3 / span 2;
+    grid-row: 4 / span 2;
     display: flex;
     text-align: center;
 }
@@ -137,11 +150,11 @@ header {
     max-width: 75%;
     margin-top: 30px;
     border-radius: 15px;
-    border: 3px solid rgb(144,12,184);
+    border: 3px solid rgb(110, 10, 141);
 }
 
 .zoom {
-    transition: transform .3s;
+    transition: transform 1s;
 }
 
 .zoom:hover {
