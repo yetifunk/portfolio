@@ -40,7 +40,7 @@ header {
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-  }
+}
 
 .title {
     animation: fadeIn linear 5s;
