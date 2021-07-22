@@ -33,7 +33,7 @@ header {
     animation: fadeIn linear 5s;
     font-size: 8vw;
     position: absolute;
-    bottom: 15vh;
+    bottom: 30vh;
     left: 10vh;
 }
 
@@ -44,10 +44,11 @@ header {
 
 .title {
     animation: fadeIn linear 5s;
-    font-size: 3vw;
+    font-size: 2vw;
     position: absolute;
-    bottom: 15vh;
+    bottom: 20vh;
     left: 10vh;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .nav-bar {
@@ -88,7 +89,7 @@ header {
 }
 
 .about-me p {
-    margin: 0 15% 0 15%;
+    margin: 0 20% 0 20%;
     font-size: 2vw;
     font-family: 'Darker Grotesque', sans-serif;
 }
@@ -97,7 +98,6 @@ header {
     color: white;
     text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
-    margin-bottom: 100px;
 }
 
 .skills h1 {
@@ -105,20 +105,10 @@ header {
     font-size: 50px;
 }
 
-.skills li {
-    font-size: 40px;
-    display: inline-block;
-    margin: 10px 15px 10px 15px;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .project-header h2 {
     font-size: 50px;
     text-align: center;
-    margin: 0 0 0 0;
+    margin: 0 0 50px 0;
     color: white;
     font-family: 'Cinzel', serif;
 }
@@ -131,7 +121,7 @@ ul {
 }
 
 .projects h4 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px 0 5px 0;
 }
 
@@ -152,7 +142,7 @@ ul {
 }
 
 .project-one, .project-two, .project-three {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .zoom {
     transition: transform 1s;
@@ -163,7 +153,7 @@ ul {
 }
 
 .codeicon {
-    width: 50px;
+    width: 100px;
 }
 
 .gitlogo {
@@ -174,4 +164,75 @@ ul {
 .projectlinks {
     font-size: 30px;
     margin: 10px 30px 10px 30px;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+td {
+    padding: 10px 20px 40px 20px;
+    font-size: 35px;
+}
+
+/* Button Creator: codepen.io/SebastianOpperman/ */
+
+.bn29 {
+    border: none;
+    padding: 0.8em 2.5em;
+    outline: none;
+    color: white;
+    font-style: 1.2em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: none;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+    margin-top: 20px;
+}
+  
+.bn29:before,
+.bn29:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10em;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 105%;
+    height: 105%;
+    content: "";
+    z-index: -2;
+    background-size: 400% 400%;
+    background: linear-gradient(
+      60deg,
+      #f79533,
+      #f37055,
+      #ef4e7b,
+      #a166ab,
+      #5073b8,
+      #1098ad,
+      #07b39b,
+      #6fba82
+    );
+}
+  
+.bn29:before {
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-animation: pulse 10s infinite ease;
+    animation: pulse 10s infinite ease;
+}
+  
+.bn29:after {
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px);
+}
+  
+.bn29:hover:before {
+    width: 115%;
+    height: 115%;
 }
