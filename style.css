@@ -243,7 +243,7 @@ td {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-        width: 100%;
+        width: 100vw;
     }
     .name {
         font-size: 5vh;
@@ -259,15 +259,23 @@ td {
     .about-me {
         text-align: center;
         margin: 0 auto;
-        width: 100%;
+        width: 100vw;
     }
     .about-me p {
         font-size: 3vh;
         margin: 0 auto;
     }
-
+    .codeicon {
+        width: 50px;
+    }
+    table {
+        width: 100vw;
+    }
     header {
-        width: 100%;
+        width: 100vw;
+    }
+    .projects p {
+        width: 100vw;
     }
 }
 
