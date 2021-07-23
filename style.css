@@ -251,6 +251,7 @@ td {
         top: 30vh;
         margin: 0 auto;
         position: relative;
+        width: 100vw;
     }
     .title {
         font-size: 4vh;
@@ -271,11 +272,26 @@ td {
     table {
         width: 100vw;
     }
+    td {
+        font-size: 2vh;
+    }
     header {
         width: 100vw;
     }
     .projects p {
         width: 100vw;
+    }
+    .skills {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .nav-bar {
+        width: 100vw;
+    }
+    .nav-text {
+        font-size: 1vh;
     }
 }
 
