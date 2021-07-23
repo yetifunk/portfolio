@@ -30,7 +30,7 @@ header {
 }
 
 .name {
-    animation: fadeIn linear 5s;
+    animation: fadeIn linear 4s;
     font-size: 8vw;
     position: absolute;
     bottom: 30vh;
@@ -43,10 +43,10 @@ header {
 }
 
 .title {
-    animation: fadeIn linear 5s;
+    animation: fadeIn linear 4s;
     font-size: 2vw;
     position: absolute;
-    bottom: 20vh;
+    bottom: 30vh;
     left: 10vh;
     font-family: 'Darker Grotesque', sans-serif;
 }
@@ -63,6 +63,7 @@ header {
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    z-index: 5000;
 }
 
 .nav-div {
@@ -235,4 +236,57 @@ td {
 .bn29:hover:before {
     width: 115%;
     height: 115%;
+}
+
+/* Breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .name {
+        font-size: 5vh;
+        bottom: 1vh;
+        top: 30vh;
+        margin: 0 auto;
+        position: relative;
+    }
+    .title {
+        font-size: 4vh;
+        top: 40vh
+    }
+    .about-me {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .about-me p {
+        font-size: 3vh;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
