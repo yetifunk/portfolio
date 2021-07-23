@@ -247,15 +247,14 @@ td {
     }
     .name {
         font-size: 5vh;
-        bottom: 1vh;
         top: 30vh;
         margin: 0 auto;
         position: relative;
-        width: 100vw;
+        width: 100%;
     }
     .title {
         font-size: 4vh;
-        top: 40vh
+        top: 40vh;
     }
     .about-me {
         text-align: center;
@@ -274,6 +273,7 @@ td {
     }
     td {
         font-size: 2vh;
+        padding: 10px 10px 10px 10px;
     }
     header {
         width: 100vw;
@@ -286,12 +286,16 @@ td {
     }
     p {
         text-align: center;
+        width: 100vw;
     }
     .nav-bar {
         width: 100vw;
     }
     .nav-text {
         font-size: 1vh;
+    }
+    .projectlinks {
+        display: block;
     }
 }
 
