@@ -142,9 +142,14 @@ header {
   border: 3px solid rgb(110, 10, 141);
 }
 
+.allcityscreenshot {
+  max-width: 20%;
+}
+
 .project-one,
 .project-two,
-.project-three {
+.project-three,
+.project-four {
   margin-bottom: 50px;
 }
 .zoom {
