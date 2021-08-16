@@ -184,6 +184,25 @@ td {
   font-size: 35px;
 }
 
+.spray {
+  justify-content: center;
+  max-width: 5%;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 300px 0 10px 0;
+  height: 200px;
+}
+
+.footertext {
+  text-align: center;
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
 /* Button Creator: codepen.io/SebastianOpperman/ */
 
 .bn29 {
